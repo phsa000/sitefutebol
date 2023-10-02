@@ -1,0 +1,253 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  }
+
+  header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+  }
+
+  header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  header ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  header ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  section {
+    padding: 50px;
+  }
+
+  h1, h2 {
+    color: #333;
+  }
+
+  footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+
+  footer p {
+    margin: 0;
+  }
+
+  image-container {
+  display: inline-block;
+  vertical-align: top;
+  }
+
+      .tweet {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+        background-color: whitesmoke;
+    color: #333;
+  }
+
+  .tweet .author {
+    font-weight: bold;
+  }
+
+  .tweet .timestamp {
+    font-size: 12px;
+    color: #888;
+  }
+
+  .tweet .content {
+    margin-top: 5px;
+  }
+
+  .tweet .actions {
+    margin-top: 10px;
+  }
+
+  .tweet .actions a {
+    color: #888;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .partidas {
+    display: inline-block;
+    vertical-align:auto;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    color: #333;
+    margin-left: 155px;
+  }
+
+  .golsrece {
+    display: inline-block;
+    vertical-align:auto;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    color: #333;
+    margin-left: 155px;
+  }
+
+  .search-container {
+    margin: 20px;
+  }
+
+  .search-input {
+    padding: 10px;
+    width: 300px;
+  }
+
+  .search-results {
+    margin-top: 20px;
+  }
+
+  .search-results li {
+    margin-bottom: 5px;
+  }
+
+  .navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333333;
+    padding: 10px;
+    position: fixed;
+  }
+
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .navbar ul li {
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+
+  .navbar h2 {
+    margin-left: 10px;
+    margin-top: -5px;
+  }
+
+  .navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .navbar form {
+    margin-left: 10px;
+    margin-top: -3px;
+  }
+
+  .navbar .login-container {
+    margin-top: 15px;
+  }
+
+  .login-container {
+    margin-left: 600px;
+  }
+
+  .search-container input[type="text"] {
+    padding: 5px;
+    width: 200px;
+  }
+
+  .search-container input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .search-container input[type="submit"]:hover {
+    background-color: #555;
+  }
+
+  h1, h2, h3 {
+    color: #ffffff;
+  }
+
+  .table table{
+    margin: 30px auto;
+    border-collapse: collapse;
+  }
+  
+  .table{
+    margin: 0px 0% 30px 0%;
+  }
+  
+  th, td {
+      padding: 10px;
+  }
+  
+  th{
+    background-color: white;
+    color: black;
+  }
+  
+  .headin{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+    display: block;
+  }
+  
+  .wpos{
+    text-align: center;
+  }
+  
+  .pos{
+    text-align: center;
+  }
+  
+  table .col{
+    border-bottom: 1px solid #FFFFFF;
+  }
+  
+  .wpos:hover{
+    background-color: white;
+  }
+  
+  .wpos:hover td{
+    color: #000000;
+  }
+  
+  .pos:hover{
+    background-color: white;
+  }
+  
+  .pos:hover td{
+    color: #000000;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  
